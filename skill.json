@@ -10,7 +10,7 @@
             "Alexa start hello world",
             "Alexa play hello world"
           ],
-          "description": "Hello world!\n\nThis skill serves as a template for custom Alexa skills!",
+          "description": "Hello world! This skill serves as a template for custom Alexa skills!",
           "keywords": [
             "blueprint",
             "template",
@@ -90,12 +90,13 @@
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "See example phrases.",
-      "category": ""
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
     },
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "./dist",
+          "sourceDir": "lambda/custom",
           "uri": "ask-custom-hello-world-default"
         },
         "interfaces": [

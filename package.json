@@ -43,5 +43,16 @@
     "lint-staged": "^9.2.1",
     "parcel-bundler": "^1.12.3",
     "typescript": "^3.5.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sem4phor/alexa-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sem4phor/alexa-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sem4phor/alexa-boilerplate#readme"
 }
